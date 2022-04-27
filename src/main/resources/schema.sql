@@ -1,0 +1,6 @@
+CREATE TABLE PRODUCT(
+     id BIGSERIAL PRIMARY KEY,
+     name VARCHAR(16) NOT NULL,
+     price DOUBLE NOT NULL,
+     quantity INTEGER NOT NULL
+);
